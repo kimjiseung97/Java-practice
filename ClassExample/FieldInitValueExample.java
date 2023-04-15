@@ -1,0 +1,18 @@
+package ClassExample;
+
+public class FieldInitValueExample {
+    public static void main(String[] args) {
+        FiledInitValue fiv = new FiledInitValue();
+
+        System.out.println("byte Field : "+ fiv.byteField);
+        System.out.println("short Field : "+fiv.shortField);
+        System.out.println("intField : "+fiv.intField);
+        System.out.println("longField : "+fiv.longField);
+        System.out.println("booleanField : "+fiv.booleanField);
+        System.out.println("charField : "+fiv.charField);
+        System.out.println("floatField : "+fiv.floatFiled);
+        System.out.println("doubleField : "+fiv.doubleField);
+        System.out.println("arrField : "+fiv.arrField);
+        System.out.println("referenceField : "+fiv.referenceField);
+    }
+}
