@@ -1,6 +1,7 @@
 package MethodOverloading;
 
 public class Calculator {
+    public static double pi;
     //정사각형의 넓이
 
     double areaRectangle(double width){
