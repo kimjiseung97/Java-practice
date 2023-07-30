@@ -1,7 +1,7 @@
 package Exception;
 
 
-public class ArrayIndexOutOfBoundsException {
+public class ArrayIndexOutOfBoundsException extends Throwable {
 
     public static void main(String[] args) {
         String data1 = args[0];
