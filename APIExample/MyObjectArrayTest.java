@@ -11,9 +11,13 @@ public class MyObjectArrayTest {
         C c = new C();
 
         objectArray.add(a);
+        objectArray.add(b);
 
         A a1 = (A)objectArray.get(0);
+        B b1 = (B)objectArray.get(1);
+
 
         a1.display();
+        b1.display();
     }
 }
