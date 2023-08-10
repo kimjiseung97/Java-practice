@@ -11,7 +11,11 @@ public class ObjectArray {
 
     //생성자
     public ObjectArray() {
-        elements = new Object[DEFAULT_CAPACITY];
+        this(5);
+    }
+
+    public ObjectArray(int capacity) {
+        elements = new Object[capacity];
     }
 
     //저장하는 동작
@@ -36,7 +40,6 @@ public class ObjectArray {
             throw new IndexOutOfBoundsException("인덱스는 음수이거나 범위를 초과할 수 없습니다");
         }
         return elements[index];
-
 
     }
 
