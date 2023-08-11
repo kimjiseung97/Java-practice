@@ -11,7 +11,9 @@ public class HelloWorld {
         //재활용하는 메모리를 바라보기때문에 같은 객체
 
 
-        System.out.println(str3==str4);
-
+        System.out.println("str1 = " + str1.getClass());
+        System.out.println("str2 = " + str2.getClass());
+        System.out.println("str3 = " + str3.getClass());
+        System.out.println("str4 = " + str4.getClass());
     }
 }
