@@ -7,8 +7,9 @@ public class StringSplit {
 
         String str = "Hello World  Java";
 
-       // String[] split = strArray.split(",");
+        // String[] split = strArray.split(",");
         String[] strArray = str.split("\\s+");
+
         for (String s : strArray) {
             System.out.println(s);
         }
