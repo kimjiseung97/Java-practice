@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class WeatherApiExample {
     public static void main(String[] args) {
-        String apiKey = "40275d41acb183877550f54b1a82d955";
+
         String city = "Seoul";
         String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey +"&units=metric";
 
@@ -29,6 +29,7 @@ public class WeatherApiExample {
                }
                 in.close();
                 System.out.println(content.toString());
+
             }else{
                 //응답이 잘못됌
             }
