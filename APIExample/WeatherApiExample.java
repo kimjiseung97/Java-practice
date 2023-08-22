@@ -10,7 +10,7 @@ public class WeatherApiExample {
     public static void main(String[] args) {
 
         String city = "Seoul";
-        String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey +"&units=metric";
+//        String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey +"&units=metric";
 
         try{
             URL url = new URL(urlString);
